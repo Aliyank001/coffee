@@ -1,0 +1,11 @@
+{
+  "name": "cafe-aroma",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node tools/server.cjs",
+    "owner": "node tools/server.cjs --owner",
+    "build": "node tools/build.cjs",
+    "check": "node --check script.js && node --check data.js && node --check owner-tools/owner-qr.js && node --check tools/server.cjs && node --check tools/build.cjs"
+  }
+}
